@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+
+    <color name="gray100">#F5F5F5</color>
+    <color name="gray600">#757575</color>
+    <color name="gray00">#212121</color>
+
+    <color name="orange100">#FFE0B2</color>
+    <color name="orange700">#F57C00</color>
+
+    <color name="red600">#E53935</color>
+    <color name="red900">#B71C1C</color>
+    <color name="bottom_nav_color">#000000</color>
+    <color name="light_gray">#D3D3D3</color>
+
+
+    <color name="gray300">#E0E0E0</color>  <!-- Xám nhạt (viền) -->
+    <color name="gray500">#9E9E9E</color>  <!-- Xám trung bình (text phụ) -->
+    <color name="gray800">#424242</color>  <!-- Xám đậm (text chính) -->
+
+    <!-- Màu chủ đạo (Primary) -->
+    <color name="primaryColor">#007BFF</color>  <!-- Màu xanh lam chính -->
+    <color name="primaryDarkColor">#0056b3</color>  <!-- Màu xanh đậm hơn -->
+    <color name="primaryLightColor">#66B2FF</color>  <!-- Xanh nhạt hơn -->
+
+    <!-- Màu nút đăng ký -->
+    <color name="buttonColor">#007BFF</color>
+
+    <!-- Màu trạng thái lỗi -->
+    <color name="errorColor">#D32F2F</color>  <!-- Màu đỏ lỗi -->
+    <color name="successColor">#4CAF50</color>  <!-- Màu xanh lá thành công -->
+
+    <!-- Màu nhấn -->
+    <color name="accentColor">#FFC107</color>  <!-- Màu vàng nổi bật -->
+</resources>
