@@ -58,6 +58,9 @@
 
         <activity android:name=".ui.customview.RegisterActivity" />
 
+        <activity android:name=".ui.customview.PaymentSuccessActivity" />
+        <activity android:name=".ui.customview.PaymentWebActivity" />
+
 
         <activity android:name=".ui.customview.ChatActivity" />
         <activity
