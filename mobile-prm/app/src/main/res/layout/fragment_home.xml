@@ -14,7 +14,7 @@
         android:id="@+id/helloTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="     Welcome to DATJ"
+        android:text="     Welcome"
         android:textSize="20sp"
         android:ellipsize="end"
         android:gravity="center_vertical"

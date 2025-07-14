@@ -12,7 +12,7 @@
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đơn hàng của bạn"
+        android:text="Your orders"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@color/gray600"

@@ -19,7 +19,7 @@ public interface AccountApiService {
 
     @GET("api/Accounts/me")
     Call<AccountResponse> getProfile();
-    @POST("api/Authentication/register/1")
+    @POST("api/Authentication/register")
     Call<RegisterResponse> register(@Body Register request);
     @POST("api/Accounts/login-google") // Giả định endpoint
     Call<LoginResponse> loginWithGoogle(@Body LoginGoogle request);

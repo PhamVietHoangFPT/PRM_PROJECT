@@ -116,7 +116,7 @@
         android:id="@+id/registerButton"
         android:layout_width="0dp"
         android:layout_height="56dp"
-        android:text="Đăng ký"
+        android:text="@string/sign_up"
         android:textSize="16sp"
         android:textAllCaps="false"
         android:backgroundTint="@android:color/black"

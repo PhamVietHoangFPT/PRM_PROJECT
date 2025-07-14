@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">mobile</string>
-    <string name="shop_name">DATJ</string>
+    <string name="shop_name">DIAMOND SHOP</string>
+    <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
+    <string name="sign_out">Sign Out</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string-array name="ring_sizes">

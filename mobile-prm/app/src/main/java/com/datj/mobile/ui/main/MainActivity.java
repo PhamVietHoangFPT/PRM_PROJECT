@@ -42,13 +42,17 @@ public class MainActivity extends AppCompatActivity {
 
             if (itemId == R.id.nav_home) {
                 selectedFragment = new HomeFragment();
-            } else if (itemId == R.id.nav_shop) {
-              //  selectedFragment = new ShopFragment();
-            } else if (itemId == R.id.nav_blog) {
+            }
+//            else if (itemId == R.id.nav_shop) {
+//              //  selectedFragment = new ShopFragment();
+//            }
+            else if (itemId == R.id.nav_blog) {
                 selectedFragment = new BlogFragment();
-            } else if (itemId == R.id.nav_notifications) {
-               // selectedFragment = new NotificationFragment();
-            } else if (itemId == R.id.nav_profile) {
+            }
+//            else if (itemId == R.id.nav_notifications) {
+//               // selectedFragment = new NotificationFragment();
+//            }
+            else if (itemId == R.id.nav_profile) {
                 selectedFragment = new ProfileFragment();
             }
 

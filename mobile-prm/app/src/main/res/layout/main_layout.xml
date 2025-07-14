@@ -21,7 +21,7 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:titleTextColor="@color/black"
         android:paddingTop="25dp"
-        app:title="  DATJ       Diamond"
+        app:title="    DIAMOND SHOP"
         app:titleTextAppearance="@style/ToolbarTitleStyle"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout

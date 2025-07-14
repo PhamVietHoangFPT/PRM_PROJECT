@@ -12,15 +12,18 @@ namespace API.Controllers
     {
         private readonly IAuthenticationService _authenticationService;
         private readonly IEmailSender _emailSender;
+        private readonly IAccountService _accountService;
 
-        public AuthenticationController(
+		public AuthenticationController(
             IAuthenticationService authenticationService,
-            IEmailSender emailSender
-        )
+            IEmailSender emailSender,
+            IAccountService accountService
+		)
         {
             _authenticationService = authenticationService;
             _emailSender = emailSender;
-        }
+            _accountService = accountService;
+		}
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO loginDto)
@@ -47,14 +50,10 @@ namespace API.Controllers
             {
                 return Unauthorized("Email already be used");
             }
-            var result = _emailSender.SendVerifyEmail(
-                registerDto.Email,
-                registerDto.Name,
-                verifyGmailToken.Token,
-                "[DATJ Diamond] – Email verification"
-            );
 
-            return Ok(result);
+            var result = await _accountService.CreateAccount(registerDto);
+
+            return Ok(verifyGmailToken);
         }
 
         [HttpPost("verify-gmail")]
